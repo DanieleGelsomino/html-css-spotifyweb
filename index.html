@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mediaquery.css">
     <title>Spotify Web</title>
@@ -22,7 +27,7 @@
             <!-- LEFT NAVBAR -->
             <div class="container">
                 <!-- SEZIONE LOGO -->
-                <nav class="debug drop-down-menu">
+                <nav id="container-nav" class="debug drop-down-menu">
                     <div class="big-logo">
                         <img src="img/logo.svg" alt="Spotify">
                     </div>
@@ -55,22 +60,37 @@
                             <h3 class="title">PLAYLIST</h3>
                             <div class="add">
                                 <a href="#"><i class="fas fa-plus plus-icon"></i>
-                                    <h4 class="text-gray">Crea Playlist</h4>
+                                    <h4>Crea Playlist</h4>
                                 </a>
                             </div>
-                            <div class="new-playlist">
+                            <div class="name-playlist">
                                 <a href="#">
-                                    <h5 class="text-gray ">Nuova playlist</h5>
-                                </a> <a href="#">
-                                    <h5 class="text-gray ">Nuova playlist</h5>
-                                </a> <a href="#">
-                                    <h5 class="text-gray ">Nuova playlist</h5>
-                                </a> <a href="#">
-                                    <h5 class="text-gray ">Nuova playlist</h5>
-                                </a> <a href="#">
-                                    <h5 class="text-gray ">Nuova playlist</h5>
-                                </a> <a href="#">
-                                    <h5 class="text-gray ">Nuova playlist</h5>
+                                    <h5>Nome playlist</h5>
+                                </a>
+                            </div>
+                            <div class="name-playlist">
+                                <a href="#">
+                                    <h5>Nome playlist</h5>
+                                </a>
+                            </div>
+                            <div class="name-playlist">
+                                <a href="#">
+                                    <h5>Nome playlist</h5>
+                                </a>
+                            </div>
+                            <div class="name-playlist">
+                                <a href="#">
+                                    <h5>Nome playlist</h5>
+                                </a>
+                            </div>
+                            <div class="name-playlist">
+                                <a href="#">
+                                    <h5>Nome playlist</h5>
+                                </a>
+                            </div>
+                            <div class="name-playlist">
+                                <a href="#">
+                                    <h5>Nome playlist</h5>
                                 </a>
                             </div>
                             <!-- / SEZIONE PLAYLIST -->
@@ -116,10 +136,51 @@
                     </div>
                     <!--/ SEZIONE TRASPARENT-BAR -->
 
-                    <!-- SEZIONE FIGURE -->
-                    <figure>
+                    <!-- MENU CENTRALE -->
 
-                    </figure>
+                    <div class=" debug menu-center">
+
+                    </div>
+
+                    <!-- / MENU CENTRALE -->
+
+
+                    <!-- SEZIONE FIGURE -->
+                    <div class="container-wrap">
+
+                        <h2>
+                            Recently played
+                        </h2>
+
+                        <figure>
+
+                            <div class="flex-img">
+                                <img class="img-box" src="img/metal_lifting.jpg" alt="">
+                            </div>
+
+                            <div class="flex-img">
+                                <img class="img-box" src="img/stranger.jpeg" alt="">
+                            </div>
+
+                            <div class="flex-img">
+                                <img class="img-box" src="img/aquietplace.jpeg" alt="">
+                            </div>
+
+                            <div class="flex-img">
+                                <img class="img-box" src="img/split.jpeg" alt="">
+                            </div>
+
+                            <div class="flex-img">
+                                <img class="img-box" src="img/cure.jpeg" alt="">
+                            </div>
+
+                            <div class="flex-img">
+                                <img class="img-box" src="img/sinister.jpeg" alt="">
+                            </div>
+                        </figure>
+
+                    </div>
+
                     <!-- / SEZIONE FIGURE -->
 
                 </header>

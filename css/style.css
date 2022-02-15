@@ -26,8 +26,38 @@ body * {
 /* LEFT NAVBAR */
 
 .drop-down-menu {
-  width: 250px;
+  z-index: 10;
+  width: 300px;
   height: 100vh;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.big-logo {
+  width: 200px;
+  height: 100px;
+  padding: 20px 20px;
+}
+
+.menu-icons {
+  padding: 0 20px;
+}
+
+.img-icon {
+  width: 30px;
+  padding-bottom: 10px;
+}
+
+.img-icon a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(163, 163, 163);
 }
 
 /* / LEFT NAVBAR */
@@ -44,12 +74,35 @@ main {
 header {
   width: 100%;
   height: 100vh;
+  background-color: rgb(20, 25, 34);
 }
 
 /* SEZIONE TRASPARENT-BAR */
 
 .trasparent-bar {
   height: 100px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50px;
+  border: 1px solid white;
+  color: white;
+  padding: 8px 35px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 600;
+  height: 40px;
 }
 
 /* / SEZIONE TRASPARENT-BAR */
@@ -72,18 +125,19 @@ footer {
   background-color: red;
 }
 
-.debug.drop-down-menu {
+/* .debug.drop-down-menu {
   background-color: blue;
-}
+} */
 
 .debug > footer {
   background-color: chartreuse;
+  z-index: 15;
 }
 
 .debug.trasparent-bar {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.debug header {
+/* .debug header {
   background-color: goldenrod;
-}
+} */

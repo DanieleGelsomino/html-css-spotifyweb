@@ -31,7 +31,7 @@ a {
 
 .drop-down-menu {
   z-index: 10;
-  width: 300px;
+  width: 250px;
   height: 100vh;
   background-color: #000000;
   position: fixed;
@@ -44,23 +44,26 @@ a {
   width: 200px;
   height: 100px;
   padding: 20px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .menu-icons {
-  padding: 0px 0px 50px 20px;
+  padding: 100px 0px 50px 20px;
 }
 
 .img-icon {
-  width: 30px;
+  width: 25px;
 }
 
 .playlist {
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 .text-gray {
   color: rgb(77, 77, 77);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .menu-select a {
@@ -107,7 +110,46 @@ h4 {
 }
 
 .new-playlist a h5 {
-  padding-top: 25px;
+  padding-top: 20px;
+}
+
+.download a {
+  padding-top: 130px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+  width: 80%;
+}
+
+.img-download {
+  width: 15px;
+  display: flex;
+}
+
+h6 {
+  color: gray;
+  margin-left: 10px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.img-profile {
+  width: 25px;
+  border-radius: 50%;
+  padding: 2px 3px;
+  background-color: gray;
+  /* margin-top: 20px; */
+}
+
+.username {
+  color: white;
+  font-size: 1rem;
+  padding-left: 10px;
 }
 
 /* / LEFT NAVBAR */
@@ -157,6 +199,10 @@ header {
 
 /* / SEZIONE TRASPARENT-BAR */
 
+/* SEZIONE FIGURE */
+
+/* / SEZIONE FIGURE */
+
 /* / SEZIONE HEADER */
 
 /* / SEZIONE MAIN */
@@ -165,6 +211,7 @@ header {
 
 footer {
   height: 100px;
+  background-color: rgb(40, 40, 40);
 }
 
 /* / SEZIONE FOOTER */
@@ -180,7 +227,7 @@ footer {
 } */
 
 .debug > footer {
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
   z-index: 15;
 }
 

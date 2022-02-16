@@ -55,7 +55,7 @@ body * {
 
 .drop-down-menu {
   width: 220px;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #000000;
   position: fixed;
   top: 0;
@@ -139,6 +139,7 @@ h3 {
 .img-download {
   width: 15px;
   display: flex;
+  filter: invert(0.5);
 }
 
 h6 {
@@ -167,14 +168,14 @@ h6 {
 
 /* / LEFT NAVBAR */
 
-/* SEZIONE MAIN */
+/******* SEZIONE MAIN *******/
 
 main {
   flex-grow: 1;
   overflow-y: auto;
 }
 
-/* SEZIONE HEADER */
+/**** SEZIONE HEADER ****/
 
 header {
   width: 100%;
@@ -248,7 +249,7 @@ header {
 
 /* / MENU CENTRALE */
 
-/* SEZIONE FIGURE */
+/*** SEZIONE FIGURE ***/
 
 #first-box {
   padding-top: 200px;
@@ -331,20 +332,53 @@ h2 {
   padding-bottom: 200px;
 }
 
-/* / SEZIONE FIGURE */
+/*** / SEZIONE FIGURE ***/
 
-/* / SEZIONE HEADER */
+/**** / SEZIONE HEADER ****/
 
-/* / SEZIONE MAIN */
+/******* / SEZIONE MAIN ********/
 
-/* SEZIONE FOOTER */
+/******* SEZIONE FOOTER *******/
 
 footer {
   height: 100px;
   background-color: rgb(40, 40, 40);
 }
 
-/* / SEZIONE FOOTER */
+.player {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.song-played {
+  display: flex;
+  align-items: center;
+}
+
+.img-played {
+  width: 40px;
+}
+
+.small-title {
+  color: white;
+  font-size: 0.6rem;
+  padding-left: 12px;
+}
+
+.small-subtitle {
+  font-size: 0.6rem;
+  color: rgb(128, 126, 126);
+}
+
+.flex-smalls-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/******* / SEZIONE FOOTER *******/
 
 /* debug */
 

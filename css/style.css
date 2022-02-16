@@ -18,7 +18,9 @@ body * {
 }
 /* applico hover  */
 #container-nav a:hover,
-.menu-center li a:hover {
+.menu-center li a:hover,
+.small-subtitle:hover,
+.save button:hover {
   color: white;
 }
 
@@ -30,6 +32,10 @@ body * {
 .menu-icons:hover {
   filter: invert(0);
   color: white;
+}
+
+.small-subtitle:hover {
+  text-decoration: underline;
 }
 
 /* applico border active */
@@ -128,7 +134,7 @@ h3 {
 }
 
 .download a {
-  padding-top: 200px;
+  padding-top: 180px;
   display: flex;
   align-items: center;
   padding-bottom: 10px;
@@ -229,11 +235,6 @@ header {
   margin-top: 100px;
   display: flex;
   justify-content: center;
-  position: fixed;
-  top: 40px;
-  right: 0;
-  left: 220px;
-  z-index: 15;
 }
 
 .menu-center ul {
@@ -252,7 +253,7 @@ header {
 /*** SEZIONE FIGURE ***/
 
 #first-box {
-  padding-top: 200px;
+  padding-top: 20px;
 }
 
 #second-box,
@@ -344,11 +345,11 @@ footer {
   height: 100px;
   background-color: rgb(40, 40, 40);
 }
+/* sezione player */
 
 .player {
   display: flex;
   justify-content: space-between;
-  margin-left: 10px;
   padding: 10px;
 }
 
@@ -364,18 +365,100 @@ footer {
 .small-title {
   color: white;
   font-size: 0.6rem;
-  padding-left: 12px;
+  padding-left: 10px;
 }
 
 .small-subtitle {
   font-size: 0.6rem;
+  font-weight: 600;
   color: rgb(128, 126, 126);
+  text-decoration: none;
+  padding-left: 8px;
 }
 
 .flex-smalls-title {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+/* sezione save */
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.save {
+  padding-left: 30px;
+}
+
+.save button {
+  padding-left: 10px;
+  color: rgb(77, 77, 77);
+  font-size: 0.9rem;
+}
+
+/* sezione comand-player */
+
+.btn-player {
+  display: flex;
+  align-items: center;
+  padding: 0 150px;
+}
+
+.btn-player button {
+  color: rgb(173, 173, 173);
+  font-size: 1.2rem;
+  padding: 10px 0 20px 20px;
+}
+
+.play-circle {
+  font-size: 1.9rem;
+}
+
+/* sezione progress-bar */
+
+.progress-bar-gray {
+  height: 5px;
+  background-color: rgb(77, 77, 77);
+  border-radius: 5px;
+  position: relative;
+}
+
+.progress-bar-gray .progress-bar-white {
+  height: 5px;
+  width: 20%;
+  border-radius: 5px;
+  background-color: rgb(173, 173, 173);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* sezione controls */
+
+.control {
+  position: relative;
+  display: flex;
+  margin-top: 20px;
+}
+
+.controls {
+  padding: 10px 50px;
+}
+
+.control button {
+  color: rgb(173, 173, 173);
+  font-size: 0.9rem;
+  margin-right: 30px;
+}
+
+.small-bar {
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  right: 0px;
 }
 
 /******* / SEZIONE FOOTER *******/

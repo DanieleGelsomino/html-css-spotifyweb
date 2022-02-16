@@ -1,1 +1,48 @@
 /* desktop first */
+
+@media screen and (max-width: 878px) {
+  .first-content-box {
+    flex-wrap: wrap;
+  }
+
+  .download {
+    padding-top: 290px;
+  }
+
+  .menu-center ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 100px;
+  }
+
+  .menu-center li {
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    padding-top: 40px;
+  }
+  .btn-player {
+    padding: 0 50px 0 150px;
+  }
+
+  .audio-progress-bar {
+    justify-content: center;
+    padding-left: 100px;
+  }
+
+  .progress-bar-gray {
+    width: 250px;
+    margin: 5px 20px;
+  }
+  .controls {
+    width: 200px;
+  }
+  .control button {
+    margin-right: 20px;
+  }
+
+  .small-bar.progress-bar-gray {
+    width: 200px;
+  }
+}

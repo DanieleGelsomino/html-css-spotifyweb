@@ -31,26 +31,34 @@ body * {
 }
 
 .img-icon:hover,
-.menu-icons:hover {
+.menu-select a:hover {
   filter: invert(0);
   color: white;
-  cursor: pointer;
 }
 
 .small-subtitle:hover {
   text-decoration: underline;
 }
 
+.flex-img:hover > .play-hover {
+  cursor: pointer;
+  display: inline-block;
+}
+
 /* applico border active */
-li a:active,
-li a:visited {
-  border-bottom: 1px solid chartreuse;
+li a:active {
+  border-bottom: 3px solid chartreuse;
+}
+
+.menu-select:active {
+  border-left: 3px solid yellowgreen;
 }
 
 /* content */
 
 .fullpage {
-  max-width: 1440px;
+  width: 100%;
+  /* max-width: 1440px; */
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -64,7 +72,7 @@ li a:visited {
 
 .drop-down-menu {
   width: 220px;
-  /* height: 100vh; */
+  height: 100vh;
   background-color: #000000;
   position: fixed;
   top: 0;
@@ -81,7 +89,7 @@ li a:visited {
 }
 
 .menu-icons {
-  padding: 100px 0px 30px 20px;
+  padding: 100px 0px 20px;
 }
 
 .img-icon {
@@ -91,12 +99,14 @@ li a:visited {
 
 .playlist {
   padding-top: 15px;
+  padding-left: 30px;
 }
 
 .menu-select a {
   display: flex;
   align-items: center;
   padding-bottom: 10px;
+  padding-left: 30px;
 }
 
 .title {
@@ -281,10 +291,26 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .img-box {
   width: 180px;
+}
+
+.play-hover {
+  width: 180px;
+  height: 180px;
+  filter: invert(1);
+  background-color: rgba(255, 255, 255, 0.5);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-image: url(../img/play-circle-regular.svg);
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
 }
 
 .title-box {
@@ -354,6 +380,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 .song-played {
@@ -479,7 +506,7 @@ button {
 }
 
 .control button {
-  color: rgb(173, 173, 173);
+  color: #f6f6f6;
   font-size: 0.9rem;
   margin-right: 30px;
 }
@@ -514,9 +541,9 @@ button {
 
 /* debug */
 
-.debug.fullpage {
+/* .debug.fullpage {
   background-color: red;
-}
+} */
 
 /* .debug.drop-down-menu {
   background-color: blue;
@@ -527,9 +554,9 @@ button {
   z-index: 15;
 }
 
-.debug.trasparent-bar {
+/* .debug.trasparent-bar {
   background-color: rgba(0, 0, 0, 0.3);
-}
+} */
 
 /* .debug.menu-center {
   background-color: red;

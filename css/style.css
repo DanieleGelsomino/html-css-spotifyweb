@@ -10,13 +10,15 @@ body * {
   font-family: "Montserrat", sans-serif;
 }
 
-#container-nav a {
+#container-nav a,
+.menu-center li a {
   text-decoration: none;
   color: rgb(77, 77, 77);
   font-size: 0.8rem;
 }
 /* applico hover  */
-#container-nav a:hover {
+#container-nav a:hover,
+.menu-center li a:hover {
   color: white;
 }
 
@@ -40,7 +42,6 @@ body * {
 /* LEFT NAVBAR */
 
 .drop-down-menu {
-  z-index: 10;
   width: 220px;
   /* height: 90vh; */
   background-color: #000000;
@@ -59,7 +60,7 @@ body * {
 }
 
 .menu-icons {
-  padding: 100px 0px 50px 20px;
+  padding: 100px 0px 30px 20px;
 }
 
 .img-icon {
@@ -114,7 +115,7 @@ h3 {
 }
 
 .download a {
-  padding-top: 200px;
+  padding-top: 180px;
   display: flex;
   align-items: center;
   padding-bottom: 10px;
@@ -132,10 +133,10 @@ h6 {
   margin-left: 10px;
 }
 
-.flex {
+.flex-name {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .img-profile {
@@ -165,7 +166,7 @@ main {
 header {
   width: 100%;
   margin-left: 220px;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: rgb(20, 25, 34);
 }
 
@@ -210,16 +211,42 @@ header {
 /* MENU CENTRALE */
 
 .menu-center {
-  height: 40px;
+  height: 50px;
   margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 40px;
+  right: 0;
+  left: 220px;
+  z-index: 15;
+}
+
+.menu-center ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-center li a {
+  text-transform: uppercase;
+  margin-right: 15px;
 }
 
 /* / MENU CENTRALE */
 
 /* SEZIONE FIGURE */
 
-figure {
-  padding-top: 20px;
+#first-box {
+  padding-top: 200px;
+}
+
+#second-box,
+#third-box {
+  padding-top: 50px;
+}
+
+.first-content-box {
+  padding-top: 25px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -228,10 +255,66 @@ h2 {
   color: white;
   padding-left: 20px;
   font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.flex-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .img-box {
   width: 180px;
+}
+
+.title-box {
+  padding-top: 20px;
+}
+
+.subtitle-box {
+  color: rgb(77, 77, 77);
+  padding-top: 10px;
+  font-size: 0.7rem;
+}
+
+.w-180 {
+  width: 180px;
+  text-align: center;
+}
+
+.description {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: rgb(77, 77, 77);
+}
+
+.second-content-box,
+.third-content-box {
+  padding-top: 25px;
+  display: flex;
+}
+
+.row-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.w-50 {
+  width: 50%;
+  text-align: center;
+}
+
+.bottom-space {
+  padding-bottom: 200px;
 }
 
 /* / SEZIONE FIGURE */

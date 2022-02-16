@@ -22,16 +22,19 @@ body * {
 .small-subtitle:hover,
 .save button:hover {
   color: white;
+  cursor: pointer;
 }
 
 #container-nav a:hover i {
   background-color: white;
+  cursor: pointer;
 }
 
 .img-icon:hover,
 .menu-icons:hover {
   filter: invert(0);
   color: white;
+  cursor: pointer;
 }
 
 .small-subtitle:hover {
@@ -39,8 +42,8 @@ body * {
 }
 
 /* applico border active */
-.menu-center li a:active,
-.menu-center li a:visited {
+li a:active,
+li a:visited {
   border-bottom: 1px solid chartreuse;
 }
 
@@ -350,7 +353,7 @@ footer {
 .player {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .song-played {
@@ -408,7 +411,7 @@ button {
 }
 
 .btn-player button {
-  color: rgb(173, 173, 173);
+  color: rgb(255, 255, 255);
   font-size: 1.2rem;
   padding: 10px 0 20px 20px;
 }
@@ -416,11 +419,26 @@ button {
 .play-circle {
   font-size: 1.9rem;
 }
+.play-circle:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
 
 /* sezione progress-bar */
 
+.audio-progress-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  font-size: 0.6rem;
+  color: white;
+  font-weight: 600;
+}
+
 .progress-bar-gray {
-  height: 5px;
+  height: 4px;
   background-color: rgb(77, 77, 77);
   border-radius: 5px;
   position: relative;
@@ -428,8 +446,8 @@ button {
 }
 
 .progress-bar-gray .progress-bar-white {
-  height: 5px;
-  width: 20%;
+  height: 4px;
+  width: 40%;
   border-radius: 5px;
   background-color: rgb(173, 173, 173);
   position: absolute;

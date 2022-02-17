@@ -317,4 +317,13 @@
     width: 50px;
   }
 }
+
 /* / terza mediaquery extra-small */
+
+/* mediaquery height */
+
+@media screen and (max-height: 550px) {
+  .overflow-playlist {
+    height: 150px;
+  }
+}

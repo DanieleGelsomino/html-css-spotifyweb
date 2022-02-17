@@ -147,8 +147,20 @@ h3 {
 }
 
 .overflow-playlist {
-  height: 150px;
   overflow-y: scroll;
+}
+
+.overflow-playlist::-webkit-scrollbar {
+  width: 10px;
+}
+
+.overflow-playlist::-webkit-scrollbar-track {
+  background-color: none;
+}
+
+.overflow-playlist::-webkit-scrollbar-thumb {
+  background: rgb(138, 138, 138);
+  border-radius: 20px;
 }
 
 .name-playlist a h5 {

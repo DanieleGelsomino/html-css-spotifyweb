@@ -1,12 +1,34 @@
 /* desktop first */
 
 @media screen and (max-width: 878px) {
-  .first-content-box {
+  .first-box-covers {
     flex-wrap: wrap;
+    justify-content: flex-start;
   }
 
+  .download a {
+    padding-top: 480px;
+  }
+  .flex-img {
+    width: 150px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
   .img-box {
     width: 150px;
+    height: 150px;
+  }
+  .size-strange {
+    width: 150px;
+  }
+  .w-text {
+    width: 150px;
+  }
+
+  .play-hover {
+    width: 150px;
+    height: 150px;
+    background-size: 40px;
   }
 
   .menu-center ul {

@@ -57,8 +57,8 @@ li a:active {
 /* content */
 
 .fullpage {
-  width: 100%;
-  /* max-width: 1440px; */
+  max-height: 1095px;
+  max-width: 1440px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -147,7 +147,7 @@ h3 {
 }
 
 .download a {
-  padding-top: 170px;
+  padding-top: 480px;
   display: flex;
   align-items: center;
   padding-bottom: 10px;
@@ -274,10 +274,11 @@ header {
   padding-top: 50px;
 }
 
-.first-content-box {
+.first-box-covers {
   padding-top: 25px;
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 h2 {
@@ -292,6 +293,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   position: relative;
+  margin-left: 20px;
 }
 
 .img-box {
@@ -324,7 +326,7 @@ h2 {
   font-size: 0.7rem;
 }
 
-.w-180 {
+.w-text {
   width: 180px;
   text-align: center;
 }
@@ -337,8 +339,8 @@ h2 {
   color: rgb(77, 77, 77);
 }
 
-.second-content-box,
-.third-content-box {
+.second-box-covers,
+.third-box-covers {
   padding-top: 25px;
   display: flex;
 }

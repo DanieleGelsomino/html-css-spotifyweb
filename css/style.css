@@ -323,12 +323,12 @@ h2 {
   display: none;
 }
 
-.title-box {
+.title-cover {
   padding-top: 20px;
 }
 
-.subtitle-box {
-  color: rgb(77, 77, 77);
+.subtitle-cover {
+  color: rgb(130, 127, 127);
   padding-top: 10px;
   font-size: 0.7rem;
 }

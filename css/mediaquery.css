@@ -20,9 +20,7 @@
     width: 150px;
     height: 150px;
   }
-  .size-strange {
-    width: 150px;
-  }
+  .size-strange,
   .w-text {
     width: 150px;
   }
@@ -226,7 +224,7 @@
 
   .drop-down-menu {
     width: 60px;
-    height: 100vh;
+    height: 95vh;
     background-color: #000000;
     position: fixed;
     top: 0;
@@ -238,7 +236,78 @@
     margin-left: 50px;
   }
 
+  .trasparent-bar {
+    width: 500px;
+  }
+
   .btn {
-    margin-right: 60px;
+    margin-right: 20px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .title-cover {
+    font-size: 1.1rem;
+  }
+
+  .subtitle-cover {
+    font-size: 0.8rem;
+  }
+
+  .first-box-covers {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 20px;
+    padding-top: 30px;
+  }
+
+  .flex-img {
+    margin-right: 5px;
+    width: 200px;
+  }
+
+  .img-box,
+  .play-hover {
+    width: 200px;
+    height: 200px;
+  }
+
+  .size-strange,
+  .w-text {
+    width: 200px;
+  }
+
+  .btn-player {
+    padding: 0 10px 0 20px;
+  }
+
+  .btn-player button {
+    padding-right: 7px;
+  }
+
+  .controls {
+    padding: 10px 0px;
+    margin-top: 10px;
+  }
+
+  .control button {
+    margin-right: 10px;
+  }
+
+  .audio-progress-bar {
+    width: 200px;
+    margin-left: 35px;
+  }
+
+  .small-bar.progress-bar-gray {
+    width: 60px;
+  }
+
+  .small-bar .progress-bar-white {
+    width: 40px;
   }
 }
+
+/* / terza mediaquery extra-small */

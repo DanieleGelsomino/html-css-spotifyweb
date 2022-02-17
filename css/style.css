@@ -17,6 +17,7 @@ body * {
   font-size: 0.8rem;
 }
 /* applico hover  */
+
 #container-nav a:hover,
 .menu-center li a:hover,
 .small-subtitle:hover,
@@ -30,8 +31,7 @@ body * {
   cursor: pointer;
 }
 
-.img-icon:hover,
-.menu-select a:hover {
+.menu-select:hover a .img-icon {
   filter: invert(0);
   color: white;
 }
@@ -47,7 +47,7 @@ body * {
 
 /* applico border active */
 li a:active {
-  border-bottom: 3px solid chartreuse;
+  border-bottom: 3px solid yellowgreen;
 }
 
 .menu-select:active {
@@ -147,7 +147,7 @@ h3 {
 }
 
 .download a {
-  padding-top: 180px;
+  padding-top: 170px;
   display: flex;
   align-items: center;
   padding-bottom: 10px;
@@ -296,6 +296,7 @@ h2 {
 
 .img-box {
   width: 180px;
+  flex-shrink: 2;
 }
 
 .play-hover {
@@ -379,8 +380,7 @@ footer {
 .player {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 20px;
-  padding-top: 10px;
+  padding: 10px 20px;
 }
 
 .song-played {
@@ -485,7 +485,7 @@ button {
 
 .lg-circle-point {
   position: absolute;
-  left: 70px;
+  left: 65px;
   top: -4.5px;
   background-color: white;
   height: 12px;
@@ -531,10 +531,18 @@ button {
 }
 
 /* applico hover alle progress-bar */
-.progress-bar-white:hover,
-.small-bar.progress-bar-white:hover {
+.audio-progress-bar:hover .progress-bar-white,
+.small-bar.progress-bar-gray:hover .small-bar.progress-bar-white {
   background-color: yellowgreen;
   cursor: pointer;
+}
+
+.progress-bar-gray:hover .lg-circle-point {
+  display: inline;
+}
+
+.small-bar.progress-bar-gray:hover .circle-point {
+  display: inline;
 }
 
 /******* / SEZIONE FOOTER *******/

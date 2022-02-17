@@ -5,8 +5,8 @@
     flex-wrap: wrap;
   }
 
-  .download {
-    padding-top: 290px;
+  .img-box {
+    width: 150px;
   }
 
   .menu-center ul {
@@ -22,13 +22,21 @@
   h2 {
     padding-top: 40px;
   }
+
+  .player {
+    padding: 10px;
+  }
+
+  .save {
+    padding-left: 50px;
+  }
+
   .btn-player {
-    padding: 0 50px 0 150px;
+    padding: 0 20px 0 50px;
   }
 
   .audio-progress-bar {
     justify-content: center;
-    padding-left: 100px;
   }
 
   .progress-bar-gray {
@@ -38,11 +46,13 @@
   .controls {
     width: 200px;
   }
+
   .control button {
     margin-right: 20px;
   }
 
   .small-bar.progress-bar-gray {
-    width: 200px;
+    width: 250px;
+    margin: auto 0;
   }
 }

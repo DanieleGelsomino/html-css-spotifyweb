@@ -2,7 +2,7 @@
 
 /* prima mediaquery medium */
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 890px) {
   .first-box-covers {
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -83,7 +83,7 @@
 
 /* seconda mediaquery small */
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 700px) {
   .menu-center {
     height: 50px;
     margin-top: 90px;
@@ -173,7 +173,7 @@
 
 /* terza mediaquery extra-small */
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 590px) {
   .big-logo {
     display: none;
   }

@@ -148,6 +148,10 @@ h3 {
   font-size: 0.9rem;
 }
 
+.overflow-playlist {
+  overflow-y: scroll;
+}
+
 .name-playlist a h5 {
   padding-top: 15px;
   font-size: 0.8rem;
@@ -301,6 +305,7 @@ h2 {
   align-items: center;
   position: relative;
   margin-left: 20px;
+  margin-top: 10px;
 }
 
 .img-box {

@@ -10,6 +10,15 @@ body * {
   font-family: "Montserrat", sans-serif;
 }
 
+.favicon-color {
+  filter: invert(1);
+}
+
+.bottom-user-dw {
+  display: flex;
+  flex-direction: column;
+}
+
 #container-nav a,
 .menu-center li a {
   text-decoration: none;
@@ -70,7 +79,7 @@ li a:active {
 
 .drop-down-menu {
   width: 220px;
-  height: 100vh;
+  height: 92vh;
   background-color: #000000;
   position: fixed;
   top: 0;
@@ -169,13 +178,16 @@ h3 {
   font-size: 0.8rem;
 }
 
+.bottom-user-dw {
+  position: absolute;
+  bottom: 35px;
+}
+
 .download a {
-  padding-top: 500px;
   display: flex;
   align-items: center;
   padding-bottom: 10px;
   border-bottom: 1px solid gray;
-  width: 80%;
 }
 
 .img-download {

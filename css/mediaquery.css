@@ -176,4 +176,69 @@
 /* terza mediaquery extra-small */
 
 @media screen and (max-width: 550px) {
+  .big-logo {
+    display: none;
+  }
+
+  .small-logo {
+    display: block;
+  }
+
+  .menu-select a {
+    padding-left: 10px;
+  }
+  .menu-icons {
+    padding-top: 10px;
+  }
+  .img-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .img-download {
+    width: 45px;
+    margin-left: 5px;
+  }
+
+  .img-profile {
+    width: 40px;
+    height: 40px;
+  }
+  .playlist {
+    padding: 10px;
+  }
+  .menu-select h4 {
+    display: none;
+  }
+
+  .download a {
+    padding-top: 650px;
+    border-bottom: none;
+  }
+
+  .playlist .title,
+  .add,
+  .name-playlist,
+  .download a h6,
+  .username {
+    display: none;
+  }
+
+  .drop-down-menu {
+    width: 60px;
+    height: 100vh;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  header,
+  .trasparent-bar {
+    margin-left: 50px;
+  }
+
+  .btn {
+    margin-right: 60px;
+  }
 }

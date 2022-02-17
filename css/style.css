@@ -146,6 +146,7 @@ h3 {
   font-size: 0.9rem;
 }
 
+/* aggiungo scrollbar per le playlist laterali */
 .overflow-playlist {
   overflow-y: scroll;
 }
@@ -169,7 +170,7 @@ h3 {
 }
 
 .download a {
-  padding-top: 480px;
+  padding-top: 500px;
   display: flex;
   align-items: center;
   padding-bottom: 10px;
@@ -385,7 +386,7 @@ h2 {
 }
 
 .bottom-space {
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
 /*** / SEZIONE FIGURE ***/
